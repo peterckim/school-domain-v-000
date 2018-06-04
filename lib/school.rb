@@ -10,8 +10,8 @@ class School
   end
   
   def add_student(student, age)
-    @roster[:age] = []
-    @roster[:age] << student
+    @roster[age] = []
+    @roster[age] << student
   end
   
 end
