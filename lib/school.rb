@@ -9,7 +9,7 @@ class School
   end
   
   def add_student(student, age)
-    roster[student] << age
+    roster[age] << student
   end
   
 end
