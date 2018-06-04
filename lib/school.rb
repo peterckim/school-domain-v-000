@@ -15,6 +15,7 @@ class School
     else
       @roster[age] = []
       @roster[age] << student
+    end
     
   end
   
