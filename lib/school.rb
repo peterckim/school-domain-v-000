@@ -9,8 +9,8 @@ class School
   end
   
   def add_student(student, age)
-    roster[:age] = []
-    roster[:age] << student
+    this.roster[:age] = []
+    this.roster[:age] << student
   end
   
 end
